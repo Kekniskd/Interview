@@ -1,0 +1,45 @@
+df3 = pd.merge(df2,df1)
+
+import httpRsponse
+
+def return_response(id):
+	if id not in DB:
+		return httpResponse.http400('Id not found in DB')
+
+
+
+import requests
+
+url = 'https:/localhost:90000/getthedata/'
+
+data = requests.get(url=url)
+
+print(data.json())
+
+data = requests.post(url=url, json={'id': 1})
+
+print(data.json())
+
+
+
+Database Query Challenge:
+Write a SQL query to retrieve the top 5 customers with the highest total purchase amount from a database table named orders.
+
+
+SELECT * FROM orders 
+
+
+
+
+Question 2: Find the Second Longest Word
+	word_list = ["apple", "banana", "cherry", "dates", "elderberry", "green", "greenRedOrangeYellowBlue"]
+
+
+
+
+
+
+
+
+
+
