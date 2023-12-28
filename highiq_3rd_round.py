@@ -1,5 +1,3 @@
-import re
-
 # Key: Zip Code
 # Value: Income Tax %
 INCOME_TAX_DICT = {
