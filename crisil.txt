@@ -31,8 +31,7 @@ SELECT * FROM orders
 
 
 
-Question 2: Find the Second Longest Word
-	word_list = ["apple", "banana", "cherry", "dates", "elderberry", "green", "greenRedOrangeYellowBlue"]
+Question 2: Find the Second-Longest word in word list = ["apple", "banana", "cherry", "dates", "elderberry", "green", "greenRedOrangeYellowBlue"]
 
 
 
